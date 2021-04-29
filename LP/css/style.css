@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(grey, yellow);
+	width: 1500px;
+	margin: auto;
+}
+.layout {
+  background
+}
+/*Header*/
+.header {
+  color: black;
+  font-family: comic sans ms;
+  background-color: yellow;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 10px 10px;
+}
+
+.header:hover {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  box-shadow: none;
+}
+/*MENU*/
+ul.menu {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  font-family: comic sans ms;
+  font-size: 20px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*CONTENT*/
+.content {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	position: relative;
+	left: 250px;
+	bottom: 110px;
+	width: 1120px;
+}
+.title-article {
+	color: yellow;
+	background-color: black;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+.content {
+	padding: 60px;
+}
+.article {
+	font-family: comic sans ms;
+	font-size: 20px;
+	text-align: justify;
+}
+.image {
+	 width: 200px; 
+	 height: auto;
+   float: left;
+	 margin-right: 30px;
+}
+/*footer*/
+.footer {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: yellow;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
